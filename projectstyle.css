@@ -28,6 +28,15 @@
     font-weight: 600;
     margin: 0;
     text-align: center;
-    color: #84202B;
+    color: #da4859;
     font-size: 60px;
+}
+
+@media(max-width:1200px){
+  .homepage h1{
+      font-size:55px;
+  }
+  .homepage h2{
+    font-size: 50px;
+  }
 }

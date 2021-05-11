@@ -86,7 +86,7 @@ nav {
     overflow: hidden; /* Ensures the content is not revealed until the animation */
     border-right: .15em solid wheat; /* The typwriter cursor */
     white-space: nowrap; /* Keeps the content on a single line */
-    letter-spacing: .15em; /* Adjust as needed */
+    letter-spacing: .1em; /* Adjust as needed */
     animation: 
       typing 3.5s steps(40, end),
       blink-caret .75s step-end infinite;
@@ -389,4 +389,10 @@ nav {
         float:none;
     }
 
+}
+
+@media(max-width:1200px){
+    .homepage h1{
+        font-size:66px;
+    }
 }
