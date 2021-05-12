@@ -203,7 +203,7 @@ nav {
 }
 
 .project-card:hover {
-    box-shadow: 5px 5px 10px grey;
+    box-shadow: 5px 5px 15px rgb(255, 255, 255);
 }
 
 .project-card img{
@@ -273,7 +273,7 @@ nav {
 
 .survey button {
     width: 100%;
-    height: 30px;
+    height: 37px;
     border-radius: 5px;
     background-color: pink;
 }
@@ -285,7 +285,7 @@ nav {
 .contact {
     position: relative;
     width: 100%;
-    height: 40vh;
+    height: 35vh;
     background-color:rgb(20, 0, 0);
     display: flex;
     flex-direction: column;
@@ -308,7 +308,7 @@ nav {
 }
 
 .links a {
-    margin: 0 5px;
+    margin: 0 10px;
     padding: 3px;
     width: 110px;
     color: white;
@@ -392,7 +392,33 @@ nav {
 }
 
 @media(max-width:1200px){
+    nav{
+        justify-content:space-evenly;
+    }
     .homepage h1{
-        font-size:66px;
+        font-size:62px;
+        font-weight: 800;
+    }
+    .homepage h2{
+        font-weight: 700;
+        color: #e27985;
+    }
+    .about p{
+        font-size: xx-large;
+        width:80%;
+    }
+    .project-card h3{
+        font-size: 1.5rem;
+    }
+    .survey{
+        font-size: 27px;
+        letter-spacing: 3.5px;
+    }
+    .contact{
+        height: 25vh;
+        font-size: 27px;
+    }
+    .work{
+        height: 80vh;
     }
 }
