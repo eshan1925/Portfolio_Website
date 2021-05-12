@@ -1,6 +1,7 @@
 html {
     font: 62.5%;
     background-color: black;
+    scroll-behavior: smooth;
 }
 
 a {
