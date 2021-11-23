@@ -1,227 +1,1192 @@
 <!DOCTYPE html>
+<html lang="zxx">
+  <head>
+    <meta charset="utf-8" />
+    <title>Eshan Gupta</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1.0" />
+    <!-- font awesome -->
+    <link rel="stylesheet" type="text/css" href="css/font-awesome.css" />
+    <!-- main css -->
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
+    <!-- responsive css -->
+    <link rel="stylesheet" type="text/css" href="css/responsive.css" />
 
-<head>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-wEmeIV1mKuiNpC+IOBjI7aAzPcEZeedi5yW5f2yOq55WWLwNGmvvx4Um1vskeMj0" crossorigin="anonymous">
-    <link rel="stylesheet" href="./style.css" />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Goblin+One&display=swap" rel="stylesheet">
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Akaya+Kanadaka&display=swap" rel="stylesheet">
-    <link rel="shortcut icon" href="./assets/favicon.ico" type="image/x-icon">
-    <title>Eshan Gupta</title> 
-</head>
+    <!-- default color skin -->
+    <link rel="stylesheet" type="text/css" href="css/skins/color-1.css" />
+    <!-- style switcher for demo purpose only -->
+    <link
+      rel="stylesheet"
+      type="text/css"
+      class="alternate-style"
+      title="color-1"
+      href="css/skins/color-1.css"
+      disabled
+    />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      class="alternate-style"
+      title="color-2"
+      href="css/skins/color-2.css"
+      disabled
+    />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      class="alternate-style"
+      title="color-3"
+      href="css/skins/color-3.css"
+      disabled
+    />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      class="alternate-style"
+      title="color-4"
+      href="css/skins/color-4.css"
+      disabled
+    />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      class="alternate-style"
+      title="color-5"
+      href="css/skins/color-5.css"
+      disabled
+    />
+    <link rel="stylesheet" type="text/css" href="css/style-switcher.css" />
+    <link rel="shortcut icon" href="./img/favicon1.jpeg" type="image/x-icon">
+  </head>
 
-<html>
+  <body>
+    <!-- preloader start -->
+    <div class="preloader">
+      <div class="box">
+        <div></div>
+        <div></div>
+        <div></div>
+      </div>
+    </div>
+    <!-- preloader end -->
 
-<body>
-    <flexbox class="flex1">
-        <nav class="navbar1">
-            <ul>
-                <li><a href="#home">Home</a></li>
-                <li><a href="#about">About</a></li>
-                <li><a href="#timeline">Timeline</a></li>
-                <li><a href="#work">Projects</a></li>
-                <li><a href="#survey">Survey</a></li>
-                <li><a href="https://eshan1925.github.io/EshanBlogs/" target="_blank">Blogs</a></li>
-                <li><a href="#contact">Contact</a></li>
-            </ul>
-        </nav>
-    </flexbox>
-    <div class="main">
-        <div id="home" class="homepage">
-            <div class="container text-center">
-                <div class="photo">
-                    <img width=200px src="./assets/pro.png" alt="_blank"><br>
-                </div>
-                <br>
-                <div class="items">
-                    <h1>Hey I am Eshan </h1>
-                    <br>
-                    <h2>a night coder,developer and enthusiast</h2>
-                </div>
-            </div>
+    <!-- header start -->
+    <header class="header">
+      <div class="container">
+        <div class="row justify-content-between">
+          <div class="logo">
+            <a href="#">E</a>
+          </div>
+          <div class="hamburger-btn outer-shadow hover-in-shadow">
+            <span></span>
+          </div>
         </div>
-        <div id="about" class="about">
-            <div class="container text-center ">
-                <div class="items">
+      </div>
+    </header>
+    <!-- header end -->
+
+    <!-- navigation menu start -->
+    <nav class="nav-menu">
+      <div class="close-nav-menu outer-shadow hover-in-shadow">&times;</div>
+      <div class="nav-menu-inner">
+        <ul>
+          <li>
+            <a href="#home" class="link-item inner-shadow active">home</a>
+          </li>
+          <li>
+            <a href="#about" class="link-item outer-shadow hover-in-shadow"
+              >about</a
+            >
+          </li>
+          <!-- <li><a href="#services" class="link-item outer-shadow hover-in-shadow">services</a></li> -->
+          <li>
+            <a href="#portfolio" class="link-item outer-shadow hover-in-shadow"
+              >portfolio</a
+            >
+          </li>
+          <!-- <li><a href="#testimonial" class="link-item outer-shadow hover-in-shadow">testimonial</a></li> -->
+          <li>
+            <a href="#contact" class="link-item outer-shadow hover-in-shadow"
+              >contact</a
+            >
+          </li>
+        </ul>
+      </div>
+      <!-- copyright text -->
+      <p class="copyright-text">&copy; Eshan's Portfolio</p>
+    </nav>
+    <div class="fade-out-effect"></div>
+    <!-- navigation menu end -->
+
+    <!-- home section start -->
+    <section class="home-section section active" id="home">
+      <!-- effect wrap start -->
+      <div class="effect-wrap">
+        <div class="effect effect-1"></div>
+        <div class="effect effect-2">
+          <div></div>
+          <div></div>
+          <div></div>
+          <div></div>
+          <div></div>
+          <div></div>
+          <div></div>
+          <div></div>
+          <div></div>
+          <div></div>
+          <div></div>
+          <div></div>
+          <div></div>
+          <div></div>
+          <div></div>
+          <div></div>
+          <div></div>
+          <div></div>
+          <div></div>
+          <div></div>
+          <div></div>
+          <div></div>
+          <div></div>
+          <div></div>
+          <div></div>
+          <div></div>
+          <div></div>
+          <div></div>
+        </div>
+        <div class="effect effect-3"></div>
+        <div class="effect effect-4"></div>
+        <div class="effect effect-5">
+          <div></div>
+          <div></div>
+          <div></div>
+          <div></div>
+          <div></div>
+          <div></div>
+          <div></div>
+          <div></div>
+          <div></div>
+          <div></div>
+        </div>
+      </div>
+      <!-- effect wrap end -->
+      <div class="container">
+        <div class="row full-screen align-items-center">
+          <div class="home-text">
+            <p>Hey👋</p>
+            <h2>I'm Eshan 😎</h2>
+            <h1>A night coder, developer and Enthusiast!!!</h1>
+            <h1></h1>
+            <a
+              href="#about"
+              class="link-item btn-1 outer-shadow hover-in-shadow"
+              >More about me</a
+            >
+          </div>
+          <div class="home-img">
+            <div class="img-box">
+              <img src="img/Eshan.png" class="outer-shadow" alt="profile-pic" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- home section ends -->
+
+    <!-- about section start -->
+    <section class="about-section section" id="about">
+      <div class="container">
+        <div class="row">
+          <div class="section-title">
+            <h2 data-heading="main info">About me</h2>
+          </div>
+        </div>
+        <div class="row">
+          <div class="about-img">
+            <div class="img-box inner-shadow">
+              <img src="img/Eshan.png" class="outer-shadow" alt="profile-pic" />
+            </div>
+            <!-- social linnk start -->
+            <div class="social-links">
+              <a
+                href="https://www.facebook.com/eshan.gupta.56213"
+                class="outer-shadow hover-in-shadow"
+                ><i class="fab fa-facebook-f"></i
+              ></a>
+              <a
+                href="https://twitter.com/EshanGu00336167"
+                class="outer-shadow hover-in-shadow"
+                ><i class="fab fa-twitter"></i
+              ></a>
+              <a
+                href="https://www.instagram.com/eshangupta1925/"
+                class="outer-shadow hover-in-shadow"
+                ><i class="fab fa-instagram"></i
+              ></a>
+              <a
+                href="https://www.linkedin.com/in/eshan-gupta-883383202/"
+                class="outer-shadow hover-in-shadow"
+                ><i class="fab fa-linkedin-in"></i
+              ></a>
+              <a
+                href="https://github.com/eshan1925"
+                class="outer-shadow hover-in-shadow"
+                ><i class="fab fa-github"></i
+              ></a>
+            </div>
+            <!-- social lionk end -->
+          </div>
+          <div class="about-info">
+            <p>
+              <span
+                >Hi! My name is Eshan. I am currently a fresher studying
+                Information Technology at Vellore Institute of Technology,
+                Vellore. I like to explore new things and adding them to my
+                portfolio.</span
+              >I have done app development using the flutter framework and dart
+              language and web development using html,css and javascript with
+              this i also have polished my skills in languages like C,C++ and
+              Python over the time.
+            </p>
+            <p>
+              Also my hobbies include playing Cricket and Cooking real life and
+              development stuff.
+            </p>
+            <a href="ResumeCV.pdf" class="btn-1 outer-shadow hover-in-shadow"
+              >Download Cv📑</a
+            >
+            <a
+              href="#contact"
+              class="link-item btn-1 outer-shadow hover-in-shadow"
+              >Hire me 👨‍💻</a
+            >
+            <a
+              href="https://linktr.ee/eshan1925"
+              class="link-item btn-1 outer-shadow hover-in-shadow"
+              >LinkTree🌴</a
+            >
+          </div>
+        </div>
+        <!-- about tabs start -->
+        <div class="row">
+          <div class="about-tabs">
+            <span class="tab-item outer-shadow active" data-target=".skills"
+              >skills</span
+            >
+            <span class="tab-item" data-target=".experience">Timeline</span>
+            <span class="tab-item" data-target=".education">education</span>
+          </div>
+        </div>
+        <!-- about tabs end -->
+        <!-- skills start -->
+        <div class="row">
+          <div class="skills tab-content active">
+            <div class="row">
+              <!-- skill item start -->
+              <div class="skill-item">
+                <p>HtML, Css</p>
+                <div class="progress inner-shadow">
+                  <div class="progress-bar" style="width: calc(50% + 30%)">
+                    <span>80%</span>
+                  </div>
+                </div>
+              </div>
+              <!-- skill item end -->
+              <!-- skill item start -->
+              <div class="skill-item">
+                <p>Javascript</p>
+                <div class="progress inner-shadow">
+                  <div class="progress-bar" style="width: calc(60% + 10%)">
+                    <span>70%</span>
+                  </div>
+                </div>
+              </div>
+              <!-- skill item end -->
+              <!-- skill item start -->
+              <div class="skill-item">
+                <p>Flutter</p>
+                <div class="progress inner-shadow">
+                  <div class="progress-bar" style="width: calc(70% + 20%)">
+                    <span>90%</span>
+                  </div>
+                </div>
+              </div>
+              <!-- skill item end -->
+              <!-- skill item start -->
+              <div class="skill-item">
+                <p>Git and Github</p>
+                <div class="progress inner-shadow">
+                  <div class="progress-bar" style="width: calc(100% - 10%)">
+                    <span>90%</span>
+                  </div>
+                </div>
+              </div>
+              <!-- skill item end -->
+              <!-- skill item start -->
+              <div class="skill-item">
+                <p>Angular</p>
+                <div class="progress inner-shadow">
+                  <div class="progress-bar" style="width: calc(90% - 40%)">
+                    <span>50%</span>
+                  </div>
+                </div>
+              </div>
+              <!-- skill item end -->
+              <!-- skill item start -->
+              <div class="skill-item">
+                <p>React</p>
+                <div class="progress inner-shadow">
+                  <div class="progress-bar" style="width: calc(100% - 50%)">
+                    <span>50%</span>
+                  </div>
+                </div>
+              </div>
+              <!-- skill item end -->
+              <!-- skill item start -->
+              <div class="skill-item">
+                <p>C++</p>
+                <div class="progress inner-shadow">
+                  <div class="progress-bar" style="width: calc(80% + 15%)">
+                    <span>95%</span>
+                  </div>
+                </div>
+              </div>
+              <!-- skill item end -->
+              <!-- skill item start -->
+              <div class="skill-item">
+                <p>C</p>
+                <div class="progress inner-shadow">
+                  <div class="progress-bar" style="width: calc(100% - 25%)">
+                    <span>75%</span>
+                  </div>
+                </div>
+              </div>
+              <!-- skill item end -->
+              <!-- skill item start -->
+              <div class="skill-item">
+                <p>Java</p>
+                <div class="progress inner-shadow">
+                  <div class="progress-bar" style="width: calc(100% - 25%)">
+                    <span>75%</span>
+                  </div>
+                </div>
+              </div>
+              <!-- skill item end -->
+              <!-- skill item start -->
+              <div class="skill-item">
+                <p>Python</p>
+                <div class="progress inner-shadow">
+                  <div class="progress-bar" style="width: calc(100% - 15%)">
+                    <span>85%</span>
+                  </div>
+                </div>
+              </div>
+              <!-- skill item end -->
+            </div>
+          </div>
+        </div>
+        <!-- skills end -->
+        <!-- experience start -->
+        <div class="row">
+          <div class="experience tab-content">
+            <div class="row">
+              <div class="timeline">
+                <div class="row">
+                  <!-- timeline item start -->
+                  <div class="timeline-item">
+                    <div class="timeline-item-inner outer-shadow">
+                      <i class="fas fa-briefcase icon"></i>
+                      <span>April,2021 - June,2021</span>
+                      <h3>App Developer Intern</h3>
+                      <h4>E2EM Technologies Ltd.</h4>
+                      <p>
+                        ❖ The Home Automation app was fully designed and the
+                        frontend part coding was done by me.
+                      </p>
+                      <p>
+                        ❖ I also helped in giving ideas for the HOPP scooter app
+                        which led to the making of the app 12% faster and also
+                        attracted 500 more users to the app
+                      </p>
+                    </div>
+                  </div>
+
+                  <!-- timeline item end -->
+                  <!-- timeline item start -->
+                  <div class="timeline-item">
+                    <div class="timeline-item-inner outer-shadow">
+                      <i class="fas fa-briefcase icon"></i>
+                      <span>May,2021 - Sep,2021</span>
+                      <h3>Core Member</h3>
+                      <h4>Creativity Club,VIT</h4>
+                      <p>
+                        ❖ A cultural club based in Vellore Institute of
+                        technology, consisting of budding enthusiasts who have a
+                        keen interest in organising creative events, live shows
+                        and so much more.
+                      </p>
+                      <p>
+                        ❖ I contributed by giving Event ideas and making poster
+                        designs for the club.
+                      </p>
+                    </div>
+                  </div>
+                  <!-- timeline item end -->
+                  <!-- timeline item start -->
+                  <div class="timeline-item">
+                    <div class="timeline-item-inner outer-shadow">
+                      <i class="fas fa-briefcase icon"></i>
+                      <span>Jan,2021 - Present</span>
+                      <h3>Core Member</h3>
+                      <h4>VIT Spartans</h4>
+                      <p>
+                        ❖ VIT Spartans is a group of enthusiasts who like to
+                        encourage people to bring out their hidden talents and
+                        give them a platform to showcase it.
+                      </p>
+                      <p>
+                        ❖ I was the part of all the 4 domains of the club i.e.
+                        Technical,Management,Anchor and Media Cell.
+                      </p>
+                    </div>
+                  </div>
+                  <!-- timeline item end -->
+                  <!-- timeline item start -->
+                  <div class="timeline-item">
+                    <div class="timeline-item-inner outer-shadow">
+                      <i class="fas fa-briefcase icon"></i>
+                      <span>Feb,2021 - Present</span>
+                      <h3>Core Member</h3>
+                      <h4>Apple Developers Group (ADG-VIT)</h4>
+                      <p>
+                        ❖ I am the part of Technical Domain of the club and
+                        under that I am the part of Web domain.
+                      </p>
+                      <p>
+                        ❖ Being the part of the club I have completed 3 web-dev
+                        tasks that were given by the club to me.
+                      </p>
+                      <p>
+                        ❖ I also built a Discord bot for the club which will
+                        help the members of the club in getting to know about
+                        Apple articles ,the article frequency was set to 3
+                        articles per day.
+                      </p>
+                    </div>
+                  </div>
+                  <!-- timeline item end -->
+                  <!-- timeline item start -->
+                  <div class="timeline-item">
+                    <div class="timeline-item-inner outer-shadow">
+                      <i class="fas fa-briefcase icon"></i>
+                      <span>Aug,2021 - October,2021</span>
+                      <h3>Hackathon Evangelist</h3>
+                      <h4>Hack This Fall 2.0</h4>
+                      <p>
+                        ❖I was an extended Hack This Fall team member and I was
+                        selected for the role as I was passionate about
+                        Hackathons and communities.
+                      </p>
+                      <p>
+                        ❖ We were definetly able to make this Hackathon a
+                        successfull one as in total the Hackathon received 2500
+                        registrations.
+                      </p>
+                    </div>
+                  </div>
+                  <!-- timeline item end -->
+                  <!-- timeline item start -->
+                  <div class="timeline-item">
+                    <div class="timeline-item-inner outer-shadow">
+                      <i class="fas fa-briefcase icon"></i>
+                      <span>Aug,2021 - Present</span>
+                      <h3>AWS Educate Student</h3>
+                      <h4>AWS Educate Student Community</h4>
+                      <p>
+                        AWS Educate Student Community India is a non-profit
+                        organization particularly formed for the cloud
+                        enthusiasts,for the lovers of cloud technologies and to
+                        make thew aware about the upcoming valuable events
+                        conducted by AWS web services community.
+                      </p>
+                    </div>
+                  </div>
+                  <!-- timeline item end -->
+                  <!-- timeline item start -->
+                  <div class="timeline-item">
+                    <div class="timeline-item-inner outer-shadow">
+                      <i class="fas fa-briefcase icon"></i>
+                      <span>Sep,2021 - Present</span>
+                      <h3>GWOC 2021 Contributor</h3>
+                      <h4>GirlScript Winter of Contributing</h4>
+                      <p>
+                        ❖ I contributed my skills and knowledge to make the
+                        world’s largest multilingual repository.
+                      </p>
+                      <p>
+                        ❖ My Contributions considted of a total of 29 Pull
+                        Requests in 7 different domains.
+                      </p>
+                    </div>
+                  </div>
+                  <!-- timeline item end -->
+                  <!-- timeline item start -->
+                  <div class="timeline-item">
+                    <div class="timeline-item-inner outer-shadow">
+                      <i class="fas fa-briefcase icon"></i>
+                      <span>Sep,2021 - Present</span>
+                      <h3>Core Member</h3>
+                      <h4>Google Developers group(GDG), Lucknow</h4>
+                      <p>
+                        Google Developer Group - Lucknow is a monthly meetup
+                        group focusing on developer technologies using Google
+                        Tools and products. Ranging from Android, to Google App
+                        Engine to Adword Campaigns.
+                      </p>
+                    </div>
+                  </div>
+                  <!-- timeline item end -->
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- experience end -->
+        <!-- education start -->
+        <div class="row">
+          <div class="education tab-content">
+            <div class="row">
+              <div class="timeline">
+                <div class="row">
+                  <!-- timeline item start -->
+                  <div class="timeline-item">
+                    <div class="timeline-item-inner outer-shadow">
+                      <i class="fas fa-graduation-cap icon"></i>
+                      <span>Apr, 2017 - May, 2018</span>
+                      <h3>High School (CBSE Board)</h3>
+                      <p>❖ Passed with 94.1%</p>
+                      <p>❖ Scored 100/100 in Information Technology</p>
+                    </div>
+                  </div>
+
+                  <!-- timeline item end -->
+                  <!-- timeline item start -->
+                  <div class="timeline-item">
+                    <div class="timeline-item-inner outer-shadow">
+                      <i class="fas fa-graduation-cap icon"></i>
+                      <span>Apr, 2017 - June, 2018</span>
+                      <h3>Intermediate (10+2) CBSE Board</h3>
+                      <!-- <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus doloribus numquam totam
+                      soluta quae eaque beatae voluptatem non, cum id? Deserunt perferendis quo quidem maxime quos
+                      officiis sit sapiente sint.</p> -->
+                      <p>❖ Passed with 93.6%</p>
+                      <p>❖ Scored 95+ in Maths,Computer Science and English</p>
+                    </div>
+                  </div>
+
+                  <!-- timeline item end -->
+                  <!-- timeline item start -->
+                  <div class="timeline-item">
+                    <div class="timeline-item-inner outer-shadow">
+                      <i class="fas fa-graduation-cap icon"></i>
+                      <span>September, 2020 - Present</span>
+                      <h3>B.Tech in Information Technology (VIT Vellore)</h3>
+                      <p>Current CGPA-: 9.37</p>
+                    </div>
+                  </div>
+                  <!-- timeline item end -->
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- education end -->
+      </div>
+    </section>
+    <!-- about section end -->
+
+    <!-- services section start -->
+    <section class="service-section section" id="services">
+      <div class="container">
+        <div class="row">
+          <div class="section-title">
+            <h2 data-heading="Services">What i do</h2>
+          </div>
+        </div>
+        <div class="row">
+          <!-- service item start -->
+          <div class="service-item">
+            <div class="service-item-inner outer-shadow">
+              <div class="icon inner-shadow">
+                <i class="fas fa-mobile-alt"></i>
+              </div>
+              <h3>Resposnive deisgn</h3>
+              <p>
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                Voluptatum, assumenda.
+              </p>
+            </div>
+          </div>
+          <!-- service item end -->
+          <!-- service item start -->
+          <div class="service-item">
+            <div class="service-item-inner outer-shadow">
+              <div class="icon inner-shadow">
+                <i class="fas fa-laptop-code"></i>
+              </div>
+              <h3>Resposnive deisghn</h3>
+              <p>
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                Voluptatum, assumenda.
+              </p>
+            </div>
+          </div>
+          <!-- service item end -->
+          <!-- service item start -->
+          <div class="service-item">
+            <div class="service-item-inner outer-shadow">
+              <div class="icon inner-shadow">
+                <i class="fas fa-pallet"></i>
+              </div>
+              <h3>Resposnive deisghn</h3>
+              <p>
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                Voluptatum, assumenda.
+              </p>
+            </div>
+          </div>
+          <!-- service item end -->
+          <!-- service item start -->
+          <div class="service-item">
+            <div class="service-item-inner outer-shadow">
+              <div class="icon inner-shadow">
+                <i class="fas fa-code"></i>
+              </div>
+              <h3>clean code</h3>
+              <p>
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                Voluptatum, assumenda.
+              </p>
+            </div>
+          </div>
+          <!-- service item end -->
+          <!-- service item start -->
+          <div class="service-item">
+            <div class="service-item-inner outer-shadow">
+              <div class="icon inner-shadow">
+                <i class="fas fa-search"></i>
+              </div>
+              <h3>seo marketing</h3>
+              <p>
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                Voluptatum, assumenda.
+              </p>
+            </div>
+          </div>
+          <!-- service item end -->
+          <!-- service item start -->
+          <div class="service-item">
+            <div class="service-item-inner outer-shadow">
+              <div class="icon inner-shadow">
+                <i class="fas fa-bullhorn"></i>
+              </div>
+              <h3>greate support</h3>
+              <p>
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                Voluptatum, assumenda.
+              </p>
+            </div>
+          </div>
+          <!-- service item end -->
+        </div>
+      </div>
+    </section>
+    <!-- services section end -->
+
+    <!-- portfolio section start -->
+    <section class="portfolio-section section" id="portfolio">
+      <div class="container">
+        <div class="row">
+          <div class="section-title">
+            <h2 data-heading="portfolio">Latest Works</h2>
+          </div>
+        </div>
+        <!-- portfolio filter start -->
+        <div class="row">
+          <div class="portfolio-filter">
+            <span class="filter-item outer-shadow active" data-target="all"
+              >all</span
+            >
+            <span class="filter-item" data-target="web-apps"
+              >Web applications</span
+            >
+            <span class="filter-item" data-target="flutter">Flutter </span>
+            <span class="filter-item" data-target="e-commerce"
+              >Miscellaneous</span
+            >
+          </div>
+        </div>
+        <!-- portfolio filter end -->
+        <!-- portfolio items start -->
+        <!-- 315 x 700 -->
+        <div class="row portfolio-items">
+          <!-- portfolio item start -->
+          <div class="portfolio-item" data-category="flutter">
+            <div class="portfolio-item-inner outer-shadow">
+              <div class="portfolio-item-img">
+                <img
+                  src="./img/Projects/Flutter/Eventour/1.jpeg"
+                  alt="portfolio"
+                  data-screenshots="./img/Projects/Flutter/Eventour/1.jpeg,./img/Projects/Flutter/Eventour/2.jpeg,./img/Projects/Flutter/Eventour/3.jpeg,./img/Projects/Flutter/Eventour/4.jpeg,./img/Projects/Flutter/Eventour/5.jpeg,./img/Projects/Flutter/Eventour/6.jpeg,./img/Projects/Flutter/Eventour/7.jpeg,./img/Projects/Flutter/Eventour/8.jpeg,./img/Projects/Flutter/Eventour/9.jpeg,./img/Projects/Flutter/Eventour/10.jpeg"
+                />
+                <!-- view project button -->
+                <span class="view-project">view project</span>
+              </div>
+              <p class="portfolio-item-title">Eventour</p>
+              <!-- portfolio item details start -->
+              <div class="portfolio-item-details">
+                <div class="row">
+                  <div class="description">
+                    <h3>Project Brief</h3>
                     <p>
-                        This is Eshan Gupta. I am currently a fresher studying Information
-                        Technology at Vellore Institute of Technology, Vellore. I like to explore new things and adding
-                        them to my portfolio. I have done app development using the flutter framework and dart language
-                        and web development using html,css and javascript with this i also have polished my skills in
-                        languages like C,C++ and Python over the time. Also my hobbies include playing Cricket and
-                        Cooking real life and development stuff.
-                    </p><br><br><br>
-                    <p><a href="#contact">Contact me</a> to know more about me!</p><br>
-                </div>
-                <p id="head7"><u>
-                        Languages I touched
-                    </u>
-                </p>
-                <br>
-                <br>
-                <a id="langlink" href="https://www.cprogramming.com/" target="_blank"><img src="./assets/C.png"
-                        class="img-fluid" alt="C"></a>
-                <a id="langlink" href="https://www.python.org/" target="_blank"><img src="./assets/python.png"
-                        class="img-fluid" alt="Python"></a>
-                <a id="langlink" href="http://www.cplusplus.org/" target="_blank"><img src="./assets/c++.png"
-                        class="img-fluid" alt="C++"></a>
-                <a id="langlink" href="https://html.com/" target="_blank"><img src="./assets/html.png" class="img-fluid"
-                        alt="HTML"></a>
-                <a id="langlink" href="https://html.com/" target="_blank"><img src="./assets/css.png" class="img-fluid"
-                        alt="Css"></a>
-                <a id="langlink" href="https://www.javascript.com/" target="_blank"><img src="./assets/javasc.png"
-                        class="img-fluid" alt="JavaScript"></a>
-                <a id="langlink" target="_blank"
-                    href="https://flutter.dev/?gclid=CjwKCAjw1uiEBhBzEiwAO9B_HWGLQxGL4B4sXHqH6wJm0We08yGsseYbach7kXLm3EZsNfvOXFBuIRoCUBEQAvD_BwE&gclsrc=aw.ds"><img
-                        src="./assets/flutter.png" class="img-fluid" alt="Flutter"></a>
-                <a id="langlink" href="https://dart.dev/" target="_blank"><img src="./assets/Dart.png" class="img-fluid"
-                        alt="Dart">
-                </a>
-            </div>
-        </div>
-        <div id="timeline" class="timeline">
-            <div class="container text-center">
-                <p id="head7">
-                    🕒🕒🕒 Timeline 🕒🕒🕒
-                </p>
-                <br><br>
-                <img id="carrier" src="./assets/Carrier.jpg" alt="#">
-            </div>
-        </div>
-        <div id="work" class="work">
-            <div class="items">
-                <h2>These are some of my projects</h2>
-                <div class="projects">
-                    <a href="https://github.com/eshan1925/Calculator" target="_blank" id="rear">
-                        <div class="project-card">
-                            <img class="calculator" src="./assets/calculator.jpg">
-                            <h3>Calculator App</h3>
-                        </div>
-                    </a>
-                    <a href="https://github.com/eshan1925/Chatsapp" target="_blank" id="rear">
-                        <div class="project-card">
-                            <img class="product" src="./assets/chatsapp.jpg">
-                            <h3>Chatsapp</h3>
-                        </div>
-                    </a>
-                    <a href="https://github.com/eshan1925/weatheria_app" target="_blank" id="rear">
-                        <div class="project-card">
-                            <img class="qg" src="./assets/clima.jpg">
-                            <h3>Weatheria App</h3>
-                        </div>
-                    </a>
-                    <a href="https://github.com/eshan1925/CompiTasks" target="_blank" id="rear">
-                        <div class="project-card">
-                            <img class="todo" src="./assets/tasker.jpg">
-                            <h3>Compitasks App</h3>
-                        </div>
-                    </a>
-                    <a href="https://github.com/eshan1925/QR_Simplifier" target="_blank" id="rear">
-                        <div class="project-card">
-                            <img class="QR-Simplifier" src="./assets/qrsimplifier.jpg">
-                            <h3>QR-Simplifier App</h3>
-                        </div>
-                    </a>
-                    <a href="https://github.com/eshan1925/Quizzler" target="_blank" id="rear">
-                        <div class="project-card">
-                            <img class="tribute" src="./assets/quiz.jpg">
-                            <h3>Quizer App</h3>
-                        </div>
-                    </a>
-                    <br>
-                </div>
-                <a href="projects.html" id="langlink"><button>Show more</button></a>
-            </div>
-        </div>
-        <div id="survey" class="survey">
-            <form action="mailto:eshan1925@gmail.com" method="post" enctype="text/plain">
-                <br>
-                <br>
-                <br>
-                <label for="name">Name</label><br>
-                <input type="text" id="full-name" name="full-name"><br><br>
-                <label for="email">Email</label><br>
-                <input type="text" id="email" name="email"><br><br>
-                <label for="age">Age</label><br>
-                <input type="text" id="age" name="age"><br><br>
-                <label for="level">Which option best describes your current role? </label><br>
-                <select id="level" name="level">
-                    <option value="beginner">Beginner</option>
-                    <option value="intermediate">Intermediate</option>
-                    <option value="advanced">Advanced</option>
-                </select><br><br>
-                <label for="">What do you like to see improved? </label><br>
-                <input type="checkbox" id="option" name="option1" value="front-end-projects">
-                <label for="option1">Front-end Projects</label><br>
-                <input type="checkbox" id="option" name="option2" value="back-end-projects">
-                <label for="option2">Back-end Projects</label><br>
-                <input type="checkbox" id="option" name="option3" value="data-visualization">
-                <label for="option3">Data visualization</label><br>
-                <input type="checkbox" id="option" name="option4" value="challenges">
-                <label for="option4">Challenges</label><br>
-                <input type="checkbox" id="option" name="option5" value="open-source">
-                <label for="option5">Open source community</label><br>
-                <input type="checkbox" id="option" name="option6" value="gitter-help-rooms">
-                <label for="option6">Gitter help rooms</label><br>
-                <input type="checkbox" id="option" name="option7" value="videos">
-                <label for="option7">Videos</label><br>
-                <input type="checkbox" id="option" name="option8" value="city-meetups">
-                <label for="option8">City Meetups</label><br>
-                <input type="checkbox" id="option" name="option9" value="wiki">
-                <label for="option9">Wiki</label><br>
-                <input type="checkbox" id="option" name="option10" value="forums">
-                <label for="option10">Forums</label><br>
-                <input type="checkbox" id="option" name="option11" value="additional-courses">
-                <label for="option11">Additional courses</label><br><br>
-                <label for="feefback">Any comments or suggestions?</label><br>
-                <textarea id="feedback-input" name="w3review" rows="5"></textarea><br><br>
-                <a href="submit.html" id="langlink"><button type="button"><input type="submit" name=""></button></a>
-                <br>
-                <br>
-            </form>
-        </div>
-    </div>
-    <div id="contact" class="contact">
-        <div class="items">
-            <h1>Let's work together...</h1>
-            <h3>Get to know more about me</h3>
-            <div class="links">
-                <a href="https://www.facebook.com/eshan.gupta.56213" target="_blank" class="fa fa-facebook"
-                    id="linkofcon"> Facebook</a>
-                <a href="https://www.github.com/eshan1925" target="_blank" class="fa fa-github" id="linkofcon">
-                    GitHub</a>
-                <a href="https://twitter.com/EshanGu00336167" target="_blank" class="fa fa-twitter" id="linkofcon">
-                    Twitter</a>
-                <a href="mailto:eshan1925@gmail.com" target="_blank" class="fa fa-envelope" id="linkofcon"> Send a
-                    mail</a>
-                <a href="tel:+8960434188" target="_blank" class="fa fa-phone" id="linkofcon"> Call me</a>
-                <a href="https://www.linkedin.com/in/eshan-gupta-883383202/" target="_blank"
-                    class="fa fa-linkedin-square" id="linkofcon"> LinkedIn</a>
-                <a href="https://www.instagram.com/eshan_eg__25/" target="_blank"
-                    class="fa fa-instagram" id="linkofcon"> Instagram</a>
-                    <a href="https://medium.com/@eshan1925" target="_blank"
-                    class="fa fa-medium" id="linkofcon"> Medium</a>
-            </div>
-        </div>
-        <div class="copyright">
-            <hr>
-            <p>This is the portfolio website of Eshan Gupta🤍</p>
-            <p>© All Rights Reserved.</p>
-            <p>Created with 🧠🧠</p>
-        </div>
-    </div>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-p34f1UUtsS3wqzfto5wAAmdvj+osOnFyQFpp4Ua3gs/ZVWx6oOypYoCJhGGScy+8"
-        crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
-        integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p"
-        crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.min.js"
-        integrity="sha384-lpyLfhYuitXl2zRZ5Bn2fqnhNAKOAaM/0Kr9laMspuaMiZfGmfwRNFh8HlMy49eQ"
-        crossorigin="anonymous"></script>
-</body>
+                      ⭐ What was the motivation?<br />
+                      As technology advances, we often aim for newer and better
+                      approaches for solving problems leaving behind the
+                      orthodox methods. Though, most of the things have been
+                      brought to our 6.5 inch screen, there's one thing which we
+                      feel, still needs improvisation- The Event Management
+                      System. The need arises mainly when one need to organise
+                      an event/ceremony outside our hometown. So instead of
+                      hustling around, worrying for contact details for best DJ,
+                      decorators around the city one just need to hop-on to our
+                      app and book his requirements for the occassion. With this
+                      motivation I have built this one stop app for all your
+                      occassion needs.
+                      <br />
+                      ⭐ Why did I build this project?<br />
+                      There is always one market leading application which stays
+                      on top of people's head that satisfies all the needs in
+                      one go, incase of food delivery ZOMATO holds the cup and
+                      for cab services OLA makes it way to the top. People tend
+                      to comeback to these applications becuase the services
+                      give top notch supply for their demand.<br />
 
+                      There is no market leading application that provides all
+                      the services required for a hustling person trying to
+                      conduct an event in 5 simple steps,I built this
+                      application to bring together the customers and the
+                      companies, increase market sales reach and interaction,
+                      also drastically decreases the time and effort of an
+                      induvidual put for conducting and organising an event.<br />
+                    </p>
+                  </div>
+                  <div class="info">
+                    <h3>Project Info</h3>
+                    <ul>
+                      <li>Date - <span>October,2021</span></li>
+                      <!-- <li>Clients - <span>xyz</span></li> -->
+                      <li>
+                        Tools -
+                        <span
+                          >Flutter (Framework), Dart, SAWO Labs, Twilio,
+                          StoryBlok API, Google CLouds API, Google Sheets
+                        </span>
+                      </li>
+                      <li>
+                        Github Link -
+                        <span
+                          ><a href="https://github.com/eshan1925/Eventour"
+                            >Link</a
+                          ></span
+                        >
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+              <!-- portfolio item details end -->
+            </div>
+          </div>
+          <!-- portfolio item end -->
+          <!-- portfolio item start -->
+          <div class="portfolio-item" data-category="flutter">
+            <div class="portfolio-item-inner outer-shadow">
+              <div class="portfolio-item-img">
+                <img
+                  src="./img/Projects/Flutter/Chatsapp/Chat1.jpeg"
+                  alt="portfolio"
+                  data-screenshots="./img/Projects/Flutter/Chatsapp/Chat1.jpeg,./img/Projects/Flutter/Chatsapp/chat2.jpeg,./img/Projects/Flutter/Chatsapp/Chat3.jpeg"
+                />
+                <!-- view project button -->
+                <span class="view-project">View project</span>
+              </div>
+              <p class="portfolio-item-title">Chats-App</p>
+              <!-- portfolio item details start -->
+              <div class="portfolio-item-details">
+                <div class="row">
+                  <div class="description">
+                    <h3>Project Brief</h3>
+                    <p>
+                      Chats-App is an Application that makes the users chat
+                      among themselves. I have built this app using flutter
+                      framework and Dart language. The backend has been
+                      implemented using Firebase. The designing was done using
+                      Figma and the login and signup authentication was also
+                      performed using Firebase.
+                    </p>
+                  </div>
+                  <div class="info">
+                    <h3>Project Info</h3>
+                    <ul>
+                      <li>Date - <span>2020</span></li>
+                      <!-- <li>Clients - <span>xyz</span></li> -->
+                      <li>Tools - <span>Flutter (Framework), Dart </span></li>
+                      <li>
+                        Github Link -
+                        <span
+                          ><a href="https://github.com/eshan1925/Chatsapp"
+                            >Link</a
+                          ></span
+                        >
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+              <!-- portfolio item details end -->
+            </div>
+          </div>
+          <!-- portfolio item end -->
+          <!-- portfolio item start -->
+          <div class="portfolio-item" data-category="flutter">
+            <div class="portfolio-item-inner outer-shadow">
+              <div class="portfolio-item-img">
+                <img
+                  src="./img/Projects/Flutter/Laguageocity/Lang3.jpg"
+                  alt="portfolio"
+                  data-screenshots="./img/Projects/Flutter/Laguageocity/Lang3.jpg,./img/Projects/Flutter/Laguageocity/Lang2.jpg,./img/Projects/Flutter/Laguageocity/Lang1.jpg,./img/Projects/Flutter/Laguageocity/Lang4.jpg,./img/Projects/Flutter/Laguageocity/Lang5.jpg"
+                />
+                <!-- view project button -->
+                <span class="view-project">View project</span>
+              </div>
+              <p class="portfolio-item-title">Chats-App</p>
+              <!-- portfolio item details start -->
+              <div class="portfolio-item-details">
+                <div class="row">
+                  <div class="description">
+                    <h3>Project Brief</h3>
+                    <p>
+                      A simple prototype of an application that lets you learn any language and it has menus such as rewards, your current lesson and your profile. I have also implemented contact us page and login/signup authentication using Firebase authentication. 
+                      Libraries used-:<br>
+                      cupertino_icons: ^1.0.2<br>
+                      firebase_auth: ^0.18.4<br>
+                      audioplayers: ^0.10.0<br>
+                      english_words: ^3.1.5<br>
+                      modal_progress_hud_nsn: ^0.1.0-nullsafety-1<br>
+                      flutter_signin_button: ^1.0.0<br>
+                      firebase_core: ^0.5.3<br>
+                      google_sign_in: ^4.5.9<br>
+                      url_launcher: ^6.0.4<br>
+                    </p>
+                  </div>
+                  <div class="info">
+                    <h3>Project Info</h3>
+                    <ul>
+                      <li>Date - <span>May,2020</span></li>
+                      <!-- <li>Clients - <span>xyz</span></li> -->
+                      <li>Tools - <span>Flutter (Framework), Dart, Firebase Auth </span></li>
+                      <li>
+                        Github Link -
+                        <span
+                          ><a href="https://github.com/eshan1925/Language_Learner"
+                            >Link</a
+                          ></span
+                        >
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+              <!-- portfolio item details end -->
+            </div>
+          </div>
+          <!-- portfolio item end -->
+          <!-- portfolio item start -->
+          <div class="portfolio-item" data-category="web-apps">
+            <div class="portfolio-item-inner outer-shadow">
+              <div class="portfolio-item-img">
+                <img
+                  src="./img/Projects/Web/Ecomm/Ecomm1.jpg"
+                  alt="portfolio"
+                  data-screenshots="./img/Projects/Web/Ecomm/Ecomm1.jpg,./img/Projects/Web/Ecomm/Ecomm2.jpg,./img/Projects/Web/Ecomm/Ecomm3.jpg,./img/Projects/Web/Ecomm/Ecomm4.jpg"
+                />
+                <!-- view project button -->
+                <span class="view-project">view project</span>
+              </div>
+              <p class="portfolio-item-title">Ecomm Website</p>
+              <!-- portfolio item details start -->
+              <div class="portfolio-item-details">
+                <div class="row">
+                  <div class="description">
+                    <h3>Project Brief</h3>
+                    <p>
+                      This is a project build usign MEAN stack and its a full clone of Amazon Website.
+                    </p>
+                  </div>
+
+                  <div class="info">
+                    <h3>Project Info</h3>
+                    <ul>
+                      <li>Date - <span>October,2020</span></li>
+                      <!-- <li>Clients - <span>xyz</span></li> -->
+                      <li>
+                        Tools - <span>MongoDB, Angular JS, Express JS, Node JS, Firebase, HTML, CSS, Typescript </span>
+                      </li>
+                      <li>
+                        Github Link -
+                        <span
+                          ><a href=""
+                            >Link</a
+                          ></span
+                        >
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+              <!-- portfolio item details end -->
+            </div>
+          </div>
+          <!-- portfolio item end -->
+          <!-- portfolio item start -->
+          <div class="portfolio-item" data-category="web-apps">
+            <div class="portfolio-item-inner outer-shadow">
+              <div class="portfolio-item-img">
+                <img
+                  src="./img/Projects/Web/Tindog/tindog4.jpg"
+                  alt="portfolio"
+                  data-screenshots="./img/Projects/Web/Tindog/tindog4.jpg,./img/Projects/Web/Tindog/tindog3.jpg,./img/Projects/Web/Tindog/tindog2.jpg,./img/Projects/Web/Tindog/tindog1.jpg"
+                />
+                <!-- view project button -->
+                <span class="view-project">View project</span>
+              </div>
+              <p class="portfolio-item-title">Tindog</p>
+              <!-- portfolio item details start -->
+              <div class="portfolio-item-details">
+                <div class="row">
+                  <div class="description">
+                    <h3>Project Brief</h3>
+                    <p>
+                      A website clone of tinder and here we can find dogs for onr another.
+                    </p>
+                  </div>
+
+                  <div class="info">
+                    <h3>Project Info</h3>
+                    <ul>
+                      <li>Date - <span>November,2020</span></li>
+                      <!-- <li>Clients - <span>xyz</span></li> -->
+                      <li>Tools - <span>html,css,bootstrap</span></li>
+                      <li>
+                        Web -
+                        <span
+                          ><a href="https://eshan1925.github.io/Tindog-Tinderclone-website/"
+                            >https://eshan1925.github.io/Tindog-Tinderclone-website/</a
+                          ></span
+                        >
+                      </li>
+                      <li>
+                        Github -
+                        <span
+                          ><a href="https://github.com/eshan1925/Tindog-Tinderclone-website"
+                            >Link</a
+                          ></span
+                        >
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+              <!-- portfolio item details end -->
+            </div>
+          </div>
+          <!-- portfolio item end -->
+          <!-- portfolio item start -->
+          <!--
+        <div class="portfolio-item" data-category="photoshop">
+          <div class="portfolio-item-inner outer-shadow">
+            <div class="portfolio-item-img">
+              <img src="img/portfolio/thumb/project-6.png" alt="portfolio"
+                data-screenshots="img/portfolio/large/project-6/1.png">
+              <!-- view project button 
+              <span class="view-project">view project</span>
+            </div>
+            <p class="portfolio-item-title">photoshop</p>
+
+          </div>
+        </div>
+        <!-- portfolio item end -->
+        </div>
+        <!-- portfolio items end -->
+      </div>
+    </section>
+    <!-- portfolio section end -->
+
+    <!-- contact section start -->
+    <section class="contact-section section" id="contact">
+      <div class="container">
+        <div class="row">
+          <div class="section-title">
+            <h2 data-heading="contact">Get In Touch</h2>
+          </div>
+        </div>
+        <div class="row">
+          <!-- contact item start -->
+          <div class="contact-item">
+            <div class="contact-item-inner outer-shadow">
+              <i class="fas fa-phone"></i>
+              <span>Phone</span>
+              <p>+91 8960434188</p>
+            </div>
+          </div>
+          <!-- contact item end -->
+          <!-- contact item start -->
+          <div class="contact-item">
+            <div class="contact-item-inner outer-shadow">
+              <i class="fas fa-envelope"></i>
+              <span>Email</span>
+              <p>eshan1925@gmail.com</p>
+            </div>
+          </div>
+          <!-- contact item end -->
+          <!-- contact item start -->
+          <div class="contact-item">
+            <div class="contact-item-inner outer-shadow">
+              <i class="fas fa-map-marker-alt"></i>
+              <span>Address</span>
+              <p>B1--40, Kribhco Nagar, Shahjahanpur</p>
+            </div>
+          </div>
+          <!-- contact item end -->
+        </div>
+        <div class="row">
+          <div class="contact-form">
+            <form
+              action="mailto:eshan1925@gmail.com"
+              method="post"
+              enctype="text/plain"
+            >
+              <div class="row">
+                <div class="w-50">
+                  <div class="input-group outer-shadow hover-in-shadow">
+                    <input
+                      type=" text"
+                      name="name"
+                      placeholder="Name"
+                      class="input-control"
+                    />
+                  </div>
+                  <div class="input-group outer-shadow hover-in-shadow">
+                    <input
+                      type=" email"
+                      name="email"
+                      placeholder="Email"
+                      class="input-control"
+                    />
+                  </div>
+                  <div class="input-group outer-shadow hover-in-shadow">
+                    <input
+                      type=" text"
+                      name="subject"
+                      placeholder="Subject"
+                      class="input-control"
+                    />
+                  </div>
+                </div>
+                <div class="w-50">
+                  <div class="input-group outer-shadow hover-in-shadow">
+                    <textarea
+                      class="input-control"
+                      placeholder="Message"
+                    ></textarea>
+                  </div>
+                </div>
+              </div>
+              <div class="row">
+                <div class="submit-btn">
+                  <button
+                    type="submit"
+                    class="btn-1 outer-shadow hover-in-shadow"
+                  >
+                    Send Message
+                  </button>
+                </div>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- contact section end -->
+
+    <!-- portfolio popup start -->
+    <div class="pp portfolio-popup">
+      <div class="pp-details">
+        <div class="pp-details-inner">
+          <div class="pp-title">
+            <h2></h2>
+            <p>Category - <span class="pp-project-category"></span></p>
+          </div>
+          <div class="pp-project-details"></div>
+        </div>
+      </div>
+
+      <div class="separator"></div>
+
+      <div class="pp-main">
+        <div class="pp-main-inner">
+          <div class="pp-project-details-btn outer-shadow hover-in-shadow">
+            Project details <i class="fas fa-plus"></i>
+          </div>
+          <div class="pp-close outer-shadow hover-in-shadow">&times;</div>
+          <img
+            src="img/portfolio/large/project-1/1.png"
+            alt="img"
+            class="pp-img outer-shadow"
+          />
+          <div class="pp-counter"></div>
+        </div>
+        <div class="pp-loader">
+          <div></div>
+        </div>
+        <!-- pp navigation start -->
+        <div class="pp-prev"><i class="fas fa-play"></i></div>
+        <div class="pp-next"><i class="fas fa-play"></i></div>
+        <!-- pp navigation end -->
+      </div>
+    </div>
+    <!-- portfoliio poup end -->
+
+    <!-- style switcher start -->
+    <div class="style-switcher outer-shadow">
+      <div class="style-switcher-toggler s-icon outer-shadow hover-in-shadow">
+        <i class="fas fa-cog fa-spin"></i>
+      </div>
+      <div class="day-night s-icon outer-shadow hover-in-shadow">
+        <i class="fas"></i>
+      </div>
+      <h4>Theme Colors</h4>
+      <div class="colors">
+        <span class="color-1" onclick="setActiveStyle('color-1')"></span>
+        <span class="color-2" onclick="setActiveStyle('color-2')"></span>
+        <span class="color-3" onclick="setActiveStyle('color-3')"></span>
+        <span class="color-4" onclick="setActiveStyle('color-4')"></span>
+        <span class="color-5" onclick="setActiveStyle('color-5')"></span>
+      </div>
+    </div>
+    <!-- style switcher end -->
+
+    <!-- main js -->
+    <script src="js/main.js"></script>
+    <!-- style switcher js -->
+    <script src="js/style-switcher.js"></script>
+  </body>
 </html>
