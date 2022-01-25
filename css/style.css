@@ -796,7 +796,27 @@ preloader
     line-height: 26px;
     margin: 15px 0 0;
 }
+.company_info{
+    display: flex;
+    flex-direction: row;
+}
+.company_logo > .imgLogoLeft{
+    margin: 5%;
+    margin-right: 80%;
+    width: 35%;
+    border-radius: 5%;
+}
 
+.company_logo > .imgLogoRight{
+    margin: 5%;
+    margin-left: 60%;
+    width: 35%;
+    border-radius: 5%;
+}
+
+.info{
+    width: 500px;
+}
 
 /* service section */
 .service-section{
