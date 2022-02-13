@@ -1298,3 +1298,30 @@ Contact section
     padding: 0 15px;
 
 }
+
+@media all and (max-width:768px){
+    #important_links{
+        display: flex;
+    }
+    .about-img{
+        margin-top: 3.7em;
+    }
+    #important_links>a{
+        font-size: x-small;
+    }
+}
+
+@media all and (max-width:412px){
+    #important_links{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #important_links>a{
+        font-size:medium;
+        width: 220px;
+        text-align: center;
+    }
+}
